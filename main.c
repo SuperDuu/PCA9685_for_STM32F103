@@ -109,10 +109,10 @@ int main(void)
   {
     /* USER CODE END WHILE */
     /* USER CODE BEGIN 3 */
-	  SetServoAngle_1(0, 0);
-      HAL_Delay(1000);
-      SetServoAngle_1(0, 90);
-      HAL_Delay(1000);
+    SetServoAngle_1(0, 0);
+    HAL_Delay(1000);
+    SetServoAngle_1(0, 90);
+    HAL_Delay(1000);
   }
   /* USER CODE END 3 */
 }
